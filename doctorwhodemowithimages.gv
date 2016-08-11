@@ -1,0 +1,56 @@
+digraph DoctorWho {
+
+doctor9 [shape=box,color=aquamarine2,style=bold,fontcolor=aquamarine2, label="Doctor 9",image="img/doctor9.gif" labelloc=b];
+doctor10 [shape=box,color=aquamarine2,style=bold,fontcolor=aquamarine2, label="Doctor 10",image="img/doctor10.jpg" labelloc=b];
+doctor11 [shape=box,color=aquamarine2,style=bold,fontcolor=aquamarine2, label="Doctor 11",image="img/doctor11.png" labelloc=b];
+doctor12 [shape=box,color=aquamarine2,style=bold, fontcolor=aquamarine2, label="Doctor 12",image="img/doctor12.jpg" labelloc=b];
+
+{rank=same doctor9 doctor10 doctor11 doctor12} [style=invis];
+doctor11->doctor12[style=invis];
+
+
+adam [shape=box,color=purple,style=bold,fontcolor=white, label="Adam",image="img/adam.png" labelloc=b];
+rose [shape=box,color=purple,style=bold,fontcolor=white, label="Rose",image="img/rose.png" labelloc=b];
+jack [shape=box,color=purple,style=bold,fontcolor=white, label="Jack",image="img/jack.jpg" labelloc=b];
+micky [shape=box,color=purple,style=bold,fontcolor=white, label="Micky",image="img/micky.jpg" labelloc=b];
+martha [shape=box,color=purple,style=bold,fontcolor=white, label="Martha",image="img/martha.jpeg" labelloc=b];
+donna [shape=box,color=purple,style=bold,fontcolor=white, label="Donna",image="img/donna.png" labelloc=b];
+wilfred [shape=box,color=purple,style=bold,fontcolor=white, label="Wilfred",image="img/wilfred.jpg" labelloc=b];
+sarah [shape=box,color=purple,style=bold,fontcolor=white, label="Sarah",image="img/sarah.png" labelloc=b];
+river [shape=box,color=purple,style=bold,fontcolor=white, label="River",image="img/river.jpg" labelloc=b];
+amy [shape=box,color=purple,style=bold, fontcolor=white, label="Amy",image="img/amy.png" labelloc=b];
+clara [shape=box,color=purple,style=bold,fontcolor=white, label="Clara",image="img/clara.png" labelloc=b];
+craig [shape=box,color=purple,style=bold,fontcolor=white, label="Craig",image="img/craig.png" labelloc=b];
+rory [shape=box,color=purple,style=bold,fontcolor=white, label="Rory",image="img/rory.png" labelloc=b];
+
+rankdir="TB"
+
+
+rose->doctor9 [dir=none];
+rose->doctor10 [dir=none];
+jack->doctor9 [dir=none];
+jack->doctor10 [dir=none];
+adam->doctor9 [dir=none];
+micky->doctor9 [dir=none];
+micky->doctor10 [dir=none];
+rose->micky [dir=none color=pink];
+rose->jack [dir=none];
+martha->doctor10[dir=none];
+martha->micky [dir=none color=red];
+donna->doctor10[dir=none];
+wilfred->doctor10[dir=none];
+donna->wilfred [dir=none color=blue];
+sarah->doctor10[dir=none];
+river->doctor10[dir=none];
+river->doctor11[dir=none color=red];
+river->doctor12[dir=none];
+amy->doctor11[dir=none];
+rory->doctor11[dir=none];
+amy->rory [dir=none color=red];
+amy->river [dir=none color=blue];
+rory->river [dir=none color=blue];
+clara->doctor11[dir=none];
+clara->doctor12[dir=none];
+craig->doctor11[dir=none];
+
+}
