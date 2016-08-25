@@ -3,14 +3,14 @@ Using Graphviz to create Doctor Who & Companion Relationship
 
 **Description**
 
-Using [Graphviz](http://www.graphviz.org/) to display nodes that connect the relationship between chacacters in [Doctor Who](http://www.bbc.co.uk/programmes/b006q2x0)
+Using [Graphviz](http://www.graphviz.org/) to display nodes that connect the relationship between chacacters in [Doctor Who](http://www.bbc.co.uk/programmes/b006q2x0).
 
 
 **How it works**
 
 Started by creating different types of node shapes for the doctor and the companions. Then connecting each node to the appropriate doctor and companion. 
 
-Step-by-step guide to creating horizontal relationships provided by [DevelopHerDevelopHim](https://www.youtube.com/channel/UCmAIHsNUyAzJ6FQMdU5jdRw) on their episode [Getting Started On Slack's Slash Command API - Making a Rock, Paper, Scissor's Game](https://youtu.be/HpSIlZGQ_Mo)
+Step-by-step guide to creating horizontal relationships provided by [DevelopHerDevelopHim](https://www.youtube.com/channel/UCmAIHsNUyAzJ6FQMdU5jdRw) on their episode [Graphviz - Doctor Who](https://youtu.be/JXfobuvyFOA)
 
 
 
@@ -22,7 +22,7 @@ Step-by-step guide to creating horizontal relationships provided by [DevelopHerD
 
 **Vertical Relationships**
 
-<img src="img/vertical.png">
+<img src="img/vertical.png" height="500">
 
 **With Images and Colors**
 
