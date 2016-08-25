@@ -1,14 +1,8 @@
 digraph DoctorWho {
 
-doctor9 [shape=box,color=aquamarine2,style=bold,label="Doctor 9\n Chris",image="img/doctor9.gif" labelloc=b];
-doctor10 [shape=box,color=aquamarine2,style=bold,label="Doctor 10\n David",image="img/doctor10.jpg" labelloc=b];
-doctor11 [shape=box,color=aquamarine2,style=bold,label="Doctor 11\n Matt",image="img/doctor11.png" labelloc=b];
-doctor12 [shape=box,color=aquamarine2,style=bold,label="Doctor 12\n Peter",image="img/doctor12.jpg" labelloc=b];
+node [shape=box]; doctor9; doctor10; doctor11; doctor12;
 
-rose [shape=box,color=purple,style=bold,label="Rose\n",image="img/rose.png" labelloc=b];
-jack [shape=box,color=purple,style=bold,label="Jack\n",image="img/jack.jpg" labelloc=b];
-
-
+node [shape=oval]; rose; jack; adam; micky; martha; donna, wilfred, sarah, river, amy, rory, clara, craig;
 
 rose->doctor9;
 rose->doctor10;
@@ -17,22 +11,22 @@ jack->doctor10;
 adam->doctor9;
 micky->doctor9;
 micky->doctor10;
-rose->micky [dir=none color=pink label=dated];
+rose->micky [dir=none];
 rose->jack [dir=none];
 martha->doctor10;
-martha->micky [dir=none color=red label=married];
+martha->micky [dir=none];
 donna->doctor10;
 wilfred->doctor10;
-donna->wilfred [dir=none color=blue];
+donna->wilfred [dir=none];
 sarah->doctor10;
 river->doctor10;
 river->doctor11;
 river->doctor12;
 amy->doctor11;
 rory->doctor11;
-amy->rory [dir=none color=red label=married];
-amy->river [dir=none color=blue];
-rory->river [dir=none color=blue];
+amy->rory [dir=none];
+amy->river [dir=none];
+rory->river [dir=none];
 clara->doctor11;
 clara->doctor12;
 craig->doctor11;
